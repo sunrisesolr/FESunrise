@@ -8,6 +8,8 @@ import { ChartModule } from 'primeng/chart';
 import { PanelModule } from 'primeng/panel';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
     imports: [
@@ -18,7 +20,8 @@ import { FormsModule } from '@angular/forms';
         ChartModule,
         PanelModule,
         ButtonModule,
-        FormsModule
+        FormsModule,
+        CarouselModule
     ],
     declarations: [LandingComponent]
 })
